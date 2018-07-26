@@ -1,12 +1,14 @@
 {
   "name": "breed-react-component",
   "version": "1.0.0",
-  "description":
-    "Generates a directory with 1) A functional React component, 2) A .scss file with a placeholder class that is imported to the component, 3) An index.js that default exports the component.",
+  "description": "Generates a directory with 1) A functional React component, 2) A .scss file with a placeholder class that is imported to the component, 3) An index.js that default exports the component.",
   "main": "index.js",
   "author": "Jakob Arnell",
   "license": "MIT",
   "bin": {
     "breed": "./index.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
   }
 }

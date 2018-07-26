@@ -41,4 +41,4 @@ npm install -g breed-react-component
 
 ## Usage
 
-Just run `breed MyComponent` where you want to create the component.
+Just run `breed MyComponent` where you want to create the component. By default, the component files and directory will have the same name as the component. You can customize this by providing a `path` argument, e.g. `breed MyComponent --path=my-component`.

@@ -1,6 +1,6 @@
-const jsTemplate = component => `import React from 'react';
+const jsTemplate = (component, path) => `import React from 'react';
 
-import './${component}.scss';
+import './${path}.scss';
 
 const ${component} = () => <div styleName="${component.charAt(0).toLowerCase() +
   component.slice(1)}">[${component}]</div>;
@@ -12,7 +12,7 @@ const cssTemplate = component => `.${component.charAt(0).toLowerCase() + compone
 
 }`;
 
-const indexTemplate = component => `import ${component} from './${component}';
+const indexTemplate = (component, path) => `import ${component} from './${path}';
 
 export default ${component};
 `;
